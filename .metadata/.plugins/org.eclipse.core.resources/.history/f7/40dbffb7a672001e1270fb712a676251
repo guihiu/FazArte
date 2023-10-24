@@ -1,0 +1,13 @@
+package enities;
+
+public enum course {
+	matematica,
+	portugues,
+	biologia,
+	quimica,
+	fisica,
+	historia,
+	redação,
+	filosofia,
+	geometria
+}

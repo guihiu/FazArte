@@ -1,0 +1,46 @@
+package User;
+
+import java.util.Calendar;
+
+import enities.UserPermissions;
+
+public class User {
+	private Integer idUser;
+	private String name;
+	private Calendar birthday;
+	private Calendar gratuated;
+	private subject subject;
+	private String telefone;
+	private String passeord;
+	private UserPermissions permission;
+	private String nameRelative;
+	private String telefoneRelative;
+	
+	
+	public User() {
+		
+	}
+
+
+	public User(Integer idUser, String name, Calendar birthday, Calendar gratuated, User.subject subject,
+			String telefone, String passeord, UserPermissions permission, String nameRelative,
+			String telefoneRelative) {
+		this.idUser = idUser;
+		this.name = name;
+		this.birthday = birthday;
+		this.gratuated = gratuated;
+		this.subject = subject;
+		this.telefone = telefone;
+		this.passeord = passeord;
+		this.permission = permission;
+		this.nameRelative = nameRelative;
+		this.telefoneRelative = telefoneRelative;
+	}
+
+
+
+
+	
+	
+
+}

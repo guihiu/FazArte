@@ -1,0 +1,13 @@
+package User.copy;
+
+public enum subject {
+	matematica,
+	portugues,
+	biologia,
+	quimica,
+	fisica,
+	historia,
+	redação,
+	filosofia,
+	geometria
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/media/guilherme/Novo volume/ws/ws-sts/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+1528740049.index
+271802626.index

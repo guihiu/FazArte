@@ -1,0 +1,6 @@
+package User.copy;
+
+public enum UserPermissions {
+	root,
+	professor
+}

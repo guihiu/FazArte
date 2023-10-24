@@ -1,0 +1,16 @@
+package enities;
+
+import java.util.Calendar;
+
+public class classroom {
+	private Integer idClass;
+	private String name;
+	private Calendar birthday;
+	private subject intendedCourse;
+	private String telefone;
+	private String password;
+	private String nameRelative;
+	private String telefoneRelative;
+	
+	
+}

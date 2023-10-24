@@ -1,0 +1,13 @@
+package User;
+
+public enum subject {
+	matematica,
+	portugues,
+	biologia,
+	quimica,
+	fisica,
+	historia,
+	redação,
+	filosofia,
+	geometria
+}

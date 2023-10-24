@@ -1,0 +1,148 @@
+package enities;
+
+import java.util.Calendar;
+
+public class Teacher {
+	private Integer idUser;
+	private String name;
+	private Calendar birthday;
+	private Calendar gratuated;
+	private Subject subject;
+	private String telefone;
+	private String password;
+	private UserPermissions permission;
+	private String nameRelative;
+	private String telefoneRelative;
+	
+	
+	public Teacher() {
+		
+	}
+
+
+	public Teacher(Integer idUser, String name, Calendar birthday, Calendar gratuated, enities.Subject subject,
+			String telefone, String passeord, UserPermissions permission, String nameRelative,
+			String telefoneRelative) {
+		super();
+		this.idUser = idUser;
+		this.name = name;
+		this.birthday = birthday;
+		this.gratuated = gratuated;
+		this.subject = subject;
+		this.telefone = telefone;
+		this.password = password;
+		this.permission = permission;
+		this.nameRelative = nameRelative;
+		this.telefoneRelative = telefoneRelative;
+	}
+
+
+	public Integer getIdUser() {
+		return idUser;
+	}
+
+
+	public void setIdUser(Integer idUser) {
+		this.idUser = idUser;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public Calendar getBirthday() {
+		return birthday;
+	}
+
+
+	public void setBirthday(Calendar birthday) {
+		this.birthday = birthday;
+	}
+
+
+	public Calendar getGratuated() {
+		return gratuated;
+	}
+
+
+	public void setGratuated(Calendar gratuated) {
+		this.gratuated = gratuated;
+	}
+
+
+	public Subject getSubject() {
+		return subject;
+	}
+
+
+	public void setSubject(Subject subject) {
+		this.subject = subject;
+	}
+
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+
+
+	public String getPasseord() {
+		return password;
+	}
+
+
+	public void setPasseord(String passeord) {
+		this.password = passeord;
+	}
+
+
+	public UserPermissions getPermission() {
+		return permission;
+	}
+
+
+	public void setPermission(UserPermissions permission) {
+		this.permission = permission;
+	}
+
+
+	public String getNameRelative() {
+		return nameRelative;
+	}
+
+
+	public void setNameRelative(String nameRelative) {
+		this.nameRelative = nameRelative;
+	}
+
+
+	public String getTelefoneRelative() {
+		return telefoneRelative;
+	}
+
+
+	public void setTelefoneRelative(String telefoneRelative) {
+		this.telefoneRelative = telefoneRelative;
+	}
+
+
+
+
+
+
+
+	
+	
+
+}
